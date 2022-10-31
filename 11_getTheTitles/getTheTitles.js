@@ -1,5 +1,6 @@
-const getTheTitles = function() {
-
+const getTheTitles = (arr) => {
+  let newArr = arr.map(book => book.title)
+  return newArr
 };
 
 // Do not edit below this line
